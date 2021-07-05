@@ -6,7 +6,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages={"one.digitalinnovation.personapi.controllers"})
+@ComponentScan(basePackages={"one.digitalinnovation.personapi"})
 public class PersonapiApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
